@@ -1,0 +1,211 @@
+.home{
+    display: flex;
+     
+    background-image: url("../img/bg.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    .container{
+
+        .burger{
+            width: 30px;
+            height:30px;
+
+        }
+        .navbar{
+            width: 90%;
+            height: 100px;
+          span{
+              font-weight: bold;
+              margin-left: 20px;
+          }
+        }
+        .title{
+            text-align: center;
+            font-size: 60px;
+            text-transform: uppercase;
+        }
+        .btn1{
+          display: flex;
+          justify-content: center
+        }
+        .btn-outline-dark{
+            padding: 10px 25px !important;
+        }
+    }
+
+    
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+
+    .div_right{
+        align-items: center;
+        justify-content: space-around;
+        padding: 100px;
+        li{
+            font-size: 25px;
+        }
+        
+        .text_right{
+            width: 60%;
+            text-align: right;
+        }
+        
+    }
+}
+.partfolio{
+        .main1{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .img-btn{
+                position: relative;
+                .btn12{
+                    position: absolute;
+                    border-radius: 0%;
+                    padding: 8px 30px;
+                    top: 30%;
+                    right: -8%;
+                }
+            }
+            .img-not{
+                margin-left: 15%;
+            }
+            li{
+                font-size: 25px;
+            }
+        }
+}
+.service{
+    padding: 50px 0;
+    background-color:  #1A1F25;
+    color: #fff;
+    
+
+    .servise_table{
+        .table1{
+            display: flex;
+            span{
+                border-right: 1px solid  #595959;
+                border-bottom: 1px solid  #595959;
+                width: 250px;
+                height: 250px;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                align-items: center;
+                justify-content: center;
+            }
+            .border-b{
+                border-bottom: none;
+            }
+            .border-b-1{
+                border-right: none;
+                border-bottom: none;
+            }
+            .last{
+                border-right: none;
+            }
+        }
+    }
+}
+.lampa{
+    background-image: url(../img/lampa.png);
+    background-size: cover;
+    // height: 900px;
+    .h1-1{
+        padding-top: 250px;
+        padding-left: 215px;
+    }
+    .lamoaS{
+        display: flex;
+        align-content: center;
+        justify-content: center; 
+        // width: 1112px;
+        height: 455px; 
+        // padding-top: 160px; 
+    }
+    .lampach{
+        display: flex;
+        margin: 20px;
+        .look{
+            padding: 0px 0 0px 0px;
+            }
+        
+        p{
+            width: 430px;
+            height: 48px;
+            padding-left: 20px;
+            text-align: center;
+            font-family: Montserrat;
+        }
+    }
+}
+.zayavka{
+    width: 100%;
+    height: 940px;
+    display: flex;
+    .zayavka1{
+        background-image: url(../img/zayavka.png);
+        width: 50%;
+        height: 940px;
+        background-size: cover;
+        padding-top: 160px;
+        padding-left: 360px;
+        h2{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 59px;
+            color: #FFFFFF;
+        }
+        .royxat{
+    
+            .label{
+                border: none;
+                border-bottom:  1px solid #FFFFFF;
+                padding-top: 40px;
+                p{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    
+                }
+                input{
+                    background: none;   
+                    border:none;
+                    width: 500px;
+                }
+            }
+            button{
+                background: none;
+                border: 1px solid #FFFFFF;
+                box-sizing: border-box;
+                color:white;
+                padding: 10px 30px 10px 30px;
+                margin-top: 80px;
+            }
+        }
+        
+       
+    }
+    .zayavka2{
+       .rasm{
+           width: 600px;
+       }
+    }
+}
+footer{
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
